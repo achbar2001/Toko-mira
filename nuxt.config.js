@@ -71,6 +71,23 @@ export default {
     '@nuxtjs/pwa',	// <-- register PWA
   ],
 
+
+  pwa: {
+    meta: {
+      title: 'Toko Mira - E-Commerce Fashion',
+      author: 'Toko Mira'
+    },
+    manifest: {
+      name: 'Toko Mira',
+      short_name: 'tokomira',
+      description: 'Official Toko Online Penjualan Produk Toko Mira',
+      lang: 'en'
+    },
+    icon: {
+      fileName: 'images/logomira.jpg',
+      sizes: [64, 120, 144, 152, 192, 384, 512]
+    }
+  },
   pwa: {
     meta: {
       title: 'TOKO MIRA - E-Commerce Fashion',
@@ -168,7 +185,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'http://achbar.my.id'
+    baseURL: 'http://localhost:8000'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
