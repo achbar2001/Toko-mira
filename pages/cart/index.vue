@@ -21,7 +21,7 @@
                         <h5><b>{{ cart.product.title }}</b></h5>
                         <table class="table-borderless table-font">
                           <tr>
-                            <td style="padding: .20rem">QTY</td>
+                            <td style="padding: .20rem">Jumlah</td>
                             <td style="padding: .20rem">:</td>
                             <td style="padding: .20rem"><b>{{ cart.qty }}</b></td>
                           </tr>
