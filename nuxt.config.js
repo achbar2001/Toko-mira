@@ -185,7 +185,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'http://achbar.my.id'
+    baseURL: 'https://achbar.my.id'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
